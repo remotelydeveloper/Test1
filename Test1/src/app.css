@@ -1,0 +1,23 @@
+body {
+}
+.form-check.form-control {
+  padding-left: 1.75rem;
+  height: auto;
+}
+.navbar {
+  border-radius: 0;
+  background: #008299 !important;
+}
+.navbar .navbar-brand .sign-out-link {
+  margin-left: 5px;
+  vertical-align: 1px;
+  transition: 0.3s;
+}
+
+.navbar .navbar-brand .sign-out-link:hover {
+  color: #0097b3;
+}
+
+a {
+  color: #0097b3;
+}

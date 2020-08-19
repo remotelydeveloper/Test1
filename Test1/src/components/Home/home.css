@@ -1,0 +1,100 @@
+.result {
+  margin: 10px;
+  color: #0097b3;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.6);
+}
+.modal-container {
+  position: absolute;
+  width: 60%;
+  background: #ffffff;
+  left: 25%;
+  top: 15%;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.modal-container .action-btn-group {
+  text-align: right;
+}
+
+.modal-container .action-btn-group button {
+  display: inline-block;
+}
+
+.modal-container .action-btn-group button.save {
+  margin-right: 7px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#footer {
+  display: none !important;
+}
+
+.create-employee.btn {
+  background-color: #0097b3 !important;
+  border-color: #0097b3 !important;
+  transition: 0.3s;
+}
+
+.create-employee.btn:hover {
+  background-color: #21a6d1 !important;
+  border-color: #21a6d1 !important;
+}
+
+.rdt_TableHeader {
+  display: none !important;
+}
+
+.rdt_TableCell .btn {
+  padding-right: 0.1rem;
+  padding-left: 0.5rem;
+}
+
+.rdt_TableCell .btn .fa-user-edit {
+  font-size: 15pt;
+  color: #0097b3;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rdt_TableCell .btn .fa-user-edit:hover {
+  color: #21a6d1;
+}
+
+.rdt_TableCell .btn .fa-user-times {
+  font-size: 15pt;
+  color: #f44336;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rdt_TableCell .btn .fa-user-times:hover {
+  color: #d12121;
+}
+
+.react-confirm-alert .react-confirm-alert-body {
+  font-size: 11pt;
+  padding: 20px 20px 15px 20px;
+}
+
+.react-confirm-alert .react-confirm-alert-body h1 {
+  font-size: 14pt;
+}
+
+.react-confirm-alert
+  .react-confirm-alert-body
+  .react-confirm-alert-button-group
+  button {
+  font-size: 12pt;
+}
+
+.react-confirm-alert
+  .react-confirm-alert-body
+  .react-confirm-alert-button-group
+  button:first-child {
+  background-color: #f44336;
+}
